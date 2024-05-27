@@ -1,0 +1,318 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255,255,255,0.2);
+    /* border-radius: 35%; */
+    border-radius: 30px;
+    color: rgb(238, 253, 72);
+    font-size: 20px;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    min-width: 500px;
+    margin-left: 30px;
+    /* padding-top: 50px; */
+    margin-top: 40px;
+    top: auto;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(238, 253, 72);
+
+}
+
+.navbar div {
+    cursor: pointer;
+}
+
+
+.page1 {
+    background-image: url(photos/page1\ background.png);
+    background-image: url(photos/Competitive\ Programmer\ \(4\).png);
+    /* height: 800px; */
+    height: 700px;
+    /* width: fit-content; */
+    /* background-size: contain; */
+    background-repeat:inherit;
+    background-size: cover;
+    /* min-width: 900px; */
+    
+}
+
+.name{
+    font-size: 100px;
+    width: 500px;
+    /* color: rgb(68, 255, 209); */
+    /* color: #0CCE6B; */
+    /* color: rgb(168, 249, 255); */
+    color: rgb(214, 255, 183);
+    /* color: rgb(45, 125, 210); */
+    /* color: rgb(255, 255, 255); */
+    margin-left: 80px;
+    /* border-top: 200px; */
+    padding-top: 200px;
+    font-weight: bold;
+}
+
+.page2{
+    height: auto;
+    min-height: 700px;
+    background-color: rgb(0, 35, 51);
+    min-width: auto;
+}
+
+.edu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+#education{
+    font-size: 80px;
+    /* width: 300px; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* color: rgb(255, 159, 28); */
+    color: rgb(255,255,255);
+    /* border-width: 5px;
+    border-color: aliceblue;
+    border-style: dotted; */
+    /* padding-top: 80px; */
+    font-weight: bolder;
+}
+
+#eduimg{
+    height: 100px;
+    margin: 10px;
+}
+
+/* #edubgimg{
+    background-image: url('photos/Untitled\ design\ \(6\).png');
+    background-size:cover;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin: 10px;
+} */
+
+#myVideo{
+    height: 100px;
+}
+
+.eduinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.degreememo{
+    /* background-image: url('photos/Untitled\ design\ \(5\).png'); */
+    /* background-image: url('photos/3.png'); */
+    /* background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: rgb(245, 255, 144);
+    background-color: rgb(238, 253, 72);
+    width: 325px;
+    height: 350px;
+    margin-top: 40px;
+    border-radius: 20%;
+    border-width: 10px;
+    border-color:rgb(255, 159, 28) ;
+    border-color:rgb(0, 0, 0) ;
+    border-top: 0px;
+    border-left: 0px;
+    border-style: solid;
+    /* padding: 50px; */
+}
+
+#degreememo1{
+    background-color: rgb(238, 253, 72);
+    width: 325px;
+    height: 350px;
+    margin-top: 40px;
+    border-radius: 20%;
+    border-width: 10px;
+    border-color:rgb(0, 0, 0) ;
+    border-top: 0px;
+    border-left: 0px;
+    border-style: solid;
+}
+#degreememo2{
+    background-color: rgb(252, 185, 78);
+    width: 325px;
+    height: 350px;
+    margin-top: 40px;
+    border-radius: 20%;
+    border-width: 10px;
+    border-color:rgb(0, 0, 0) ;
+    border-top: 0px;
+    border-left: 0px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#degreememo3{
+    background-color: rgb(155, 253, 80);
+    width: 325px;
+    height: 350px;
+    margin-top: 40px;
+    border-radius: 20%;
+    border-width: 10px;
+    border-color:rgb(0, 0, 0) ;
+    border-top: 0px;
+    border-left: 0px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+.memoheading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    height: 110px;
+    color: rgb(0, 21, 40);
+}
+
+.memoheading img{
+    height: 100px;
+    margin-left: 112px;
+    margin-right: 113px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.memocontent{
+    text-align: left;
+    margin-left: 40px;
+}
+
+.page3{
+    height: auto;
+    background-color: rgb(0, 21, 40);
+    min-width: auto;
+    min-height: 700px;
+
+}
+
+.toolsandtech{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.toolsandtech img{
+    height: 100px;
+    padding-top: 70px;
+}
+
+.tools{
+    font-size: 70px;
+    /* width: 300px; */
+    text-align: center;
+    /* align-items: center; */
+    color: #5aceef;
+    /* border-width: 5px;
+    border-color: aliceblue;
+    border-style: dotted; */
+    padding-top: 80px;
+    font-weight: bolder;
+    /* padding-bottom: 50px; */
+    margin-bottom: 50px;
+}
+
+.tech{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    /* flex-grow: inherit; */
+}
+
+.techcard{
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    border-radius: 25%;
+    /* background-color: #8aadff; */
+    background-color: rgb(138,173,255);
+    border-color: rgb(255,255,255,0.5);
+    border-color: rgb(30,98,255);
+    /* border-color: rgb(90,206,239); */
+    border-style: solid;
+    border-width: 0px 7px 7px 0px;
+    cursor: pointer;
+    /* cursor-size: 10px; */
+
+}
+
+#cpp{
+    background-image: url('photos/cpp.png');
+    background-size: cover;
+}
+
+#c{
+    background-image: url('photos/c.png');
+    background-size: cover;
+}
+
+#html{
+    background-image: url('photos/html.png');
+    background-size: cover;
+}
+
+#css{
+    background-image: url('photos/css.png');
+    background-size: cover;
+}
+
+#js{
+    background-image: url('photos/js2.png');
+    background-size: cover;
+}
+
+#python{
+    background-image: url('photos/python.png');
+    background-size: cover;
+}
+
+#excel{
+    background-image: url('photos/excel.png');
+    background-size: cover;
+}
+
+#mysql{
+    background-image: url('photos/mysql.png');
+    background-size: cover;
+}
+
+#github{
+    background-image: url('photos/github.png');
+    background-size: cover;
+}
+
+#java{
+    background-image: url('photos/java.png');
+    background-size: cover;
+}
+
+.page4{
+    height: auto;
+    min-height: 700px;
+    background-color: rgb(0, 35, 51);
+    min-width: auto;
+}
