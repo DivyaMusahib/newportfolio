@@ -38,7 +38,7 @@
     background-image: url(photos/page1\ background.png);
     background-image: url(photos/Competitive\ Programmer\ \(4\).png);
     /* height: 800px; */
-    height: 700px;
+    height: 100vh;
     /* width: fit-content; */
     /* background-size: contain; */
     background-repeat:inherit;
