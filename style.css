@@ -38,25 +38,13 @@
     background-image: url(photos/page1\ background.png);
     background-image: url(photos/Competitive\ Programmer\ \(4\).png);
     /* height: 800px; */
+    min-height: 700px;
     height: 100vh;
     /* width: fit-content; */
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 100vh; */
-    /* min-width: 900px; */
     
 }
-
-.page1 {
-    background-image: url('photos/page1 background.png');
-    height: 100vh; /* Full viewport height */
-    background-size: cover; /* Cover the entire container */
-    background-position: center;
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    width: 100%; /* Full width */
-    overflow: hidden; /* Ensure no overflow */
-}
-
 
 .name{
     font-size: 100px;
